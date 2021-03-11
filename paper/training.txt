@@ -1,0 +1,404 @@
+gowtham@hppavilion:~/Desktop/Unity3d/Kerasbg$  /usr/bin/env /home/gowtham/Desktop/Unity3d/Kerasbg/testtf/bin/python3 /home/gowtham/.vscode/extensions/ms-python.python-2020.12.424452561/pythonFiles/lib/python/debugpy/launcher 42567 -- /home/gowtham/Desktop/Unity3d/Kerasbg/ObjectDetection.py 
+source /home/gowtham/Desktop/Unity3d/Kerasbg/testtf/bin/activate
+2020-12-20 22:28:35.019265: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-12-20 22:28:35.062051: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-20 22:28:35.062448: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 Ti computeCapability: 7.5
+coreClock: 1.485GHz coreCount: 16 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 178.84GiB/s
+2020-12-20 22:28:35.064325: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-12-20 22:28:35.095820: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-12-20 22:28:35.114507: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-12-20 22:28:35.118365: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-12-20 22:28:35.150894: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-12-20 22:28:35.156178: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-12-20 22:28:35.214854: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-12-20 22:28:35.214990: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-20 22:28:35.215368: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-20 22:28:35.215642: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+/home/gowtham/Desktop/Unity3d/Kerasbg/testtf/lib/python3.8/site-packages/google/colab/data_table.py:30: UserWarning: IPython.utils.traitlets has moved to a top-level traitlets package.
+  from IPython.utils import traitlets as _traitlets
+Finished importing Label file.
+Started reading images.
+Finished reading 100 images.
+Finished reading 200 images.
+Finished reading 300 images.
+Finished reading images.
+Started reading xml annotations and images as numpy array.
+╒═══════════════════════════════╤═══════════════════╤══════════════════╕
+│ Class Name                    │   Frequency count │   '%' out of 100 │
+╞═══════════════════════════════╪═══════════════════╪══════════════════╡
+│ candy_minipralines_lindt      │               322 │         10.4342  │
+├───────────────────────────────┼───────────────────┼──────────────────┤
+│ cereal_cheerios_honeynut      │               299 │          9.68892 │
+├───────────────────────────────┼───────────────────┼──────────────────┤
+│ cleaning_snuggle_henkel       │               298 │          9.65651 │
+├───────────────────────────────┼───────────────────┼──────────────────┤
+│ craft_yarn_caron              │               309 │         10.013   │
+├───────────────────────────────┼───────────────────┼──────────────────┤
+│ drink_greentea_itoen          │               304 │          9.85094 │
+├───────────────────────────────┼───────────────────┼──────────────────┤
+│ drink_whippingcream_lucerne   │               300 │          9.72132 │
+├───────────────────────────────┼───────────────────┼──────────────────┤
+│ lotion_essentially_nivea      │               322 │         10.4342  │
+├───────────────────────────────┼───────────────────┼──────────────────┤
+│ pasta_lasagne_barilla         │               315 │         10.2074  │
+├───────────────────────────────┼───────────────────┼──────────────────┤
+│ snack_granolabar_naturevalley │               339 │         10.9851  │
+├───────────────────────────────┼───────────────────┼──────────────────┤
+│ snack_biscotti_ghiott         │               278 │          9.00843 │
+╘═══════════════════════════════╧═══════════════════╧══════════════════╛
+Total Tensors count:3086
+Finished reading xml annotations.
+Preparing Tensors...
+2020-12-20 22:30:31.277501: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-12-20 22:30:31.306678: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2499950000 Hz
+2020-12-20 22:30:31.307188: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7ff2fc000b60 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-20 22:30:31.307225: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-20 22:30:31.395315: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-20 22:30:31.395758: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4aca660 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-12-20 22:30:31.395784: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce GTX 1650 Ti, Compute Capability 7.5
+2020-12-20 22:30:31.396645: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-20 22:30:31.397049: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 Ti computeCapability: 7.5
+coreClock: 1.485GHz coreCount: 16 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 178.84GiB/s
+2020-12-20 22:30:31.397105: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-12-20 22:30:31.397137: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-12-20 22:30:31.397165: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-12-20 22:30:31.397194: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-12-20 22:30:31.397222: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-12-20 22:30:31.397251: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-12-20 22:30:31.397279: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-12-20 22:30:31.397349: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-20 22:30:31.397753: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-20 22:30:31.398046: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-12-20 22:30:31.398395: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-12-20 22:30:31.399324: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-20 22:30:31.399338: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2020-12-20 22:30:31.399343: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2020-12-20 22:30:31.399730: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-20 22:30:31.400111: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-20 22:30:31.400473: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3171 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+Done prepping data.
+Finished preparing Tensors
+Started to create model
+Building model and restoring weights for fine-tuning...
+2020-12-20 22:30:35.038611: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-12-20 22:30:36.490133: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-12-20 22:30:36.857717: I tensorflow/stream_executor/cuda/cuda_driver.cc:763] failed to allocate 2.60G (2787311616 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+Weights restored!
+Finished creating model
+Started training model.
+Start fine-tuning!
+2020-12-20 22:30:54.541871: W tensorflow/core/common_runtime/bfc_allocator.cc:245] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.28GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-12-20 22:30:54.541902: W tensorflow/core/common_runtime/bfc_allocator.cc:245] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.28GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-12-20 22:30:54.623922: W tensorflow/core/common_runtime/bfc_allocator.cc:245] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.28GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-12-20 22:30:54.623950: W tensorflow/core/common_runtime/bfc_allocator.cc:245] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.28GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-12-20 22:30:54.930308: W tensorflow/core/common_runtime/bfc_allocator.cc:245] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.17GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-12-20 22:30:54.930333: W tensorflow/core/common_runtime/bfc_allocator.cc:245] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.17GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-12-20 22:30:55.293143: W tensorflow/core/common_runtime/bfc_allocator.cc:245] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.14GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-12-20 22:30:55.293167: W tensorflow/core/common_runtime/bfc_allocator.cc:245] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.14GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-12-20 22:30:55.606975: W tensorflow/core/common_runtime/bfc_allocator.cc:245] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.18GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-12-20 22:30:55.607000: W tensorflow/core/common_runtime/bfc_allocator.cc:245] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.18GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+batch 0 of 30000,localisation loss=0.05511796474456787,Classification loss=1.2170995473861694 Time=0:00:18.850585
+batch 100 of 30000,localisation loss=0.024452072056010365,Classification loss=0.6322769328951836 Time=0:01:03.477460
+batch 200 of 30000,localisation loss=0.022426242744550108,Classification loss=0.5583216986060142 Time=0:01:04.571001
+batch 300 of 30000,localisation loss=0.0177627265593037,Classification loss=0.5360408356785774 Time=0:01:04.262537
+batch 400 of 30000,localisation loss=0.016118463929742574,Classification loss=0.5204154360294342 Time=0:01:04.132708
+batch 500 of 30000,localisation loss=0.013328252979554235,Classification loss=0.5287477904558182 Time=0:01:03.741932
+batch 600 of 30000,localisation loss=0.012766260006465018,Classification loss=0.4902830070257187 Time=0:01:03.809802
+batch 700 of 30000,localisation loss=0.012893615341745317,Classification loss=0.49783828735351565 Time=0:01:03.738663
+batch 800 of 30000,localisation loss=0.011847332045435905,Classification loss=0.5089026337862015 Time=0:01:03.857958
+batch 900 of 30000,localisation loss=0.010718445279635488,Classification loss=0.46156094878911974 Time=0:01:03.578623
+batch 1000 of 30000,localisation loss=0.010891341315582394,Classification loss=0.51002146422863 Time=0:01:03.801699
+batch 1100 of 30000,localisation loss=0.011512159672565758,Classification loss=0.49381675720214846 Time=0:01:03.780954
+batch 1200 of 30000,localisation loss=0.009609931465238333,Classification loss=0.47877034097909926 Time=0:01:03.674175
+batch 1300 of 30000,localisation loss=0.009538974715396761,Classification loss=0.48927596628665926 Time=0:01:03.670352
+batch 1400 of 30000,localisation loss=0.00807964629959315,Classification loss=0.48924565702676776 Time=0:01:03.605433
+batch 1500 of 30000,localisation loss=0.008588244784623384,Classification loss=0.46499676644802096 Time=0:01:03.652705
+batch 1600 of 30000,localisation loss=0.008041768069379032,Classification loss=0.49430082947015763 Time=0:01:03.685958
+batch 1700 of 30000,localisation loss=0.00791420616209507,Classification loss=0.477476572394371 Time=0:01:03.665632
+batch 1800 of 30000,localisation loss=0.007763588970992714,Classification loss=0.5054118189215661 Time=0:01:03.730179
+batch 1900 of 30000,localisation loss=0.007702804845757782,Classification loss=0.49028568506240844 Time=0:01:03.644134
+batch 2000 of 30000,localisation loss=0.006620837047230452,Classification loss=0.546086810529232 Time=0:01:03.596278
+batch 2100 of 30000,localisation loss=0.007950547505170108,Classification loss=0.5076519930362702 Time=0:01:03.675154
+batch 2200 of 30000,localisation loss=0.007109790365211666,Classification loss=0.47631359070539475 Time=0:01:03.707849
+batch 2300 of 30000,localisation loss=0.006559942329768091,Classification loss=0.45703784584999085 Time=0:01:03.721003
+batch 2400 of 30000,localisation loss=0.006076787328347564,Classification loss=0.46749693363904954 Time=0:01:03.705367
+batch 2500 of 30000,localisation loss=0.006104454146698118,Classification loss=0.47849062472581866 Time=0:01:03.729950
+batch 2600 of 30000,localisation loss=0.006313405237160623,Classification loss=0.5069064351916314 Time=0:01:03.779136
+batch 2700 of 30000,localisation loss=0.005863499399274588,Classification loss=0.5081333503127098 Time=0:01:03.723581
+batch 2800 of 30000,localisation loss=0.005864430440124124,Classification loss=0.48046030938625334 Time=0:01:03.677630
+batch 2900 of 30000,localisation loss=0.005479325852356851,Classification loss=0.5093194714188576 Time=0:01:03.714986
+batch 3000 of 30000,localisation loss=0.005159269385039807,Classification loss=0.4738462597131729 Time=0:01:03.728208
+batch 3100 of 30000,localisation loss=0.005717943431809544,Classification loss=0.5098220837116242 Time=0:01:03.773302
+batch 3200 of 30000,localisation loss=0.0052785048214718695,Classification loss=0.4610183507204056 Time=0:01:03.744904
+batch 3300 of 30000,localisation loss=0.004915499612689018,Classification loss=0.4953660053014755 Time=0:01:03.749147
+batch 3400 of 30000,localisation loss=0.005659336401149631,Classification loss=0.4875166472792625 Time=0:01:03.765762
+batch 3500 of 30000,localisation loss=0.005010601382236928,Classification loss=0.4676674947142601 Time=0:01:03.679550
+batch 3600 of 30000,localisation loss=0.004849881033878773,Classification loss=0.4739392951130867 Time=0:01:03.637364
+batch 3700 of 30000,localisation loss=0.005154497330076993,Classification loss=0.44817584216594697 Time=0:01:03.714323
+batch 3800 of 30000,localisation loss=0.004611067238729447,Classification loss=0.4828794738650322 Time=0:01:03.736425
+batch 3900 of 30000,localisation loss=0.00445072518195957,Classification loss=0.4673063719272614 Time=0:01:03.763821
+batch 4000 of 30000,localisation loss=0.004388047107495368,Classification loss=0.45927065014839175 Time=0:01:03.677126
+batch 4100 of 30000,localisation loss=0.0041445951233617965,Classification loss=0.46058750450611113 Time=0:01:03.750882
+batch 4200 of 30000,localisation loss=0.004231400860007852,Classification loss=0.4679262483119965 Time=0:01:03.786588
+batch 4300 of 30000,localisation loss=0.0042270570364780725,Classification loss=0.45008188515901565 Time=0:01:03.735709
+batch 4400 of 30000,localisation loss=0.004217862659133971,Classification loss=0.46256218701601026 Time=0:01:03.747318
+batch 4500 of 30000,localisation loss=0.003974587090779096,Classification loss=0.4704169517755508 Time=0:01:03.809645
+batch 4600 of 30000,localisation loss=0.004149278912227601,Classification loss=0.46372004359960556 Time=0:01:03.826641
+batch 4700 of 30000,localisation loss=0.0037394795089494438,Classification loss=0.4598878279328346 Time=0:01:03.737085
+batch 4800 of 30000,localisation loss=0.004341632558498532,Classification loss=0.47761691123247146 Time=0:01:03.800494
+batch 4900 of 30000,localisation loss=0.003816170415375382,Classification loss=0.4950060346722603 Time=0:01:03.754038
+batch 5000 of 30000,localisation loss=0.003970287912525236,Classification loss=0.48901208251714706 Time=0:01:03.723160
+batch 5100 of 30000,localisation loss=0.0037292395671829582,Classification loss=0.4973393699526787 Time=0:01:03.649228
+batch 5200 of 30000,localisation loss=0.0036721390415914356,Classification loss=0.47532626837491987 Time=0:01:03.722351
+batch 5300 of 30000,localisation loss=0.0036138942372053863,Classification loss=0.5029786825180054 Time=0:01:03.665793
+batch 5400 of 30000,localisation loss=0.0034186536259949206,Classification loss=0.4888270109891891 Time=0:01:03.721352
+batch 5500 of 30000,localisation loss=0.003778515423182398,Classification loss=0.4983304637670517 Time=0:01:03.719837
+batch 5600 of 30000,localisation loss=0.003622944011585787,Classification loss=0.478586428463459 Time=0:01:03.745165
+batch 5700 of 30000,localisation loss=0.0034918290586210786,Classification loss=0.4710794222354889 Time=0:01:03.726156
+batch 5800 of 30000,localisation loss=0.003563103028573096,Classification loss=0.4735951134562492 Time=0:01:03.814774
+batch 5900 of 30000,localisation loss=0.0034796872222796083,Classification loss=0.49034840404987334 Time=0:01:03.812683
+batch 6000 of 30000,localisation loss=0.003440166659420356,Classification loss=0.5091829496622086 Time=0:01:03.759799
+batch 6100 of 30000,localisation loss=0.0033843101561069487,Classification loss=0.47301834225654604 Time=0:01:03.589284
+batch 6200 of 30000,localisation loss=0.0035884827480185777,Classification loss=0.4716140839457512 Time=0:01:03.667178
+batch 6300 of 30000,localisation loss=0.0034563186170998962,Classification loss=0.48904972821474074 Time=0:01:03.674209
+batch 6400 of 30000,localisation loss=0.0033824230695609003,Classification loss=0.501693449318409 Time=0:01:03.737970
+batch 6500 of 30000,localisation loss=0.003149058086564764,Classification loss=0.474361287355423 Time=0:01:03.811603
+batch 6600 of 30000,localisation loss=0.0030584237875882535,Classification loss=0.48913924366235734 Time=0:01:03.753413
+batch 6700 of 30000,localisation loss=0.0029631020547822118,Classification loss=0.4805618563294411 Time=0:01:03.703751
+batch 6800 of 30000,localisation loss=0.002925008977763355,Classification loss=0.46085470855236055 Time=0:01:03.644483
+batch 6900 of 30000,localisation loss=0.0031442337844055147,Classification loss=0.4449256277084351 Time=0:01:03.664711
+batch 7000 of 30000,localisation loss=0.002788623754167929,Classification loss=0.48881834477186203 Time=0:01:03.759432
+batch 7100 of 30000,localisation loss=0.0029916093894280494,Classification loss=0.47020762890577317 Time=0:01:03.728218
+batch 7200 of 30000,localisation loss=0.002926544804358855,Classification loss=0.5069354072213172 Time=0:01:03.682549
+batch 7300 of 30000,localisation loss=0.0027763154171407223,Classification loss=0.4917507243156433 Time=0:01:03.746926
+batch 7400 of 30000,localisation loss=0.00294023955357261,Classification loss=0.4659168827533722 Time=0:01:03.798586
+batch 7500 of 30000,localisation loss=0.0030315445899032054,Classification loss=0.4615542131662369 Time=0:01:03.708419
+batch 7600 of 30000,localisation loss=0.002967152812052518,Classification loss=0.4939248651266098 Time=0:01:03.800719
+batch 7700 of 30000,localisation loss=0.0027322606835514305,Classification loss=0.5251782220602036 Time=0:01:03.873847
+batch 7800 of 30000,localisation loss=0.0028562634659465404,Classification loss=0.4772444680333138 Time=0:01:03.776038
+batch 7900 of 30000,localisation loss=0.0027842140942811967,Classification loss=0.48431695491075516 Time=0:01:03.777421
+batch 8000 of 30000,localisation loss=0.0026840931957121937,Classification loss=0.4746791923046112 Time=0:01:03.820061
+batch 8100 of 30000,localisation loss=0.0025490306504070757,Classification loss=0.4761896476149559 Time=0:01:03.755037
+batch 8200 of 30000,localisation loss=0.0024428406183142214,Classification loss=0.4683260789513588 Time=0:01:03.776910
+batch 8300 of 30000,localisation loss=0.0026327513356227427,Classification loss=0.48565596222877505 Time=0:01:03.590989
+batch 8400 of 30000,localisation loss=0.0024920172104611993,Classification loss=0.46793787360191347 Time=0:01:03.745823
+batch 8500 of 30000,localisation loss=0.002331216352758929,Classification loss=0.4671934613585472 Time=0:01:03.786638
+batch 8600 of 30000,localisation loss=0.0025099497789051383,Classification loss=0.471107320189476 Time=0:01:03.814472
+batch 8700 of 30000,localisation loss=0.0023364567907992752,Classification loss=0.4597302147746086 Time=0:01:03.800526
+batch 8800 of 30000,localisation loss=0.0025027339183725417,Classification loss=0.445817109644413 Time=0:01:03.777015
+batch 8900 of 30000,localisation loss=0.0024132556130643935,Classification loss=0.4485306042432785 Time=0:01:03.743168
+batch 9000 of 30000,localisation loss=0.0021766049938742073,Classification loss=0.4570843911170959 Time=0:01:03.792911
+batch 9100 of 30000,localisation loss=0.0023556433257181197,Classification loss=0.4564420717954636 Time=0:01:03.761911
+batch 9200 of 30000,localisation loss=0.002271923809312284,Classification loss=0.46824724435806275 Time=0:01:03.835809
+batch 9300 of 30000,localisation loss=0.0021968151489272715,Classification loss=0.4984948575496674 Time=0:01:03.663206
+batch 9400 of 30000,localisation loss=0.0020364780293311924,Classification loss=0.5056121790409088 Time=0:01:03.721557
+batch 9500 of 30000,localisation loss=0.0020794541714712978,Classification loss=0.44854617297649385 Time=0:01:03.677795
+batch 9600 of 30000,localisation loss=0.0021923520555719735,Classification loss=0.4574544510245323 Time=0:01:03.609733
+batch 9700 of 30000,localisation loss=0.002177364492090419,Classification loss=0.5219637876749039 Time=0:01:03.772015
+batch 9800 of 30000,localisation loss=0.002220641451422125,Classification loss=0.5183469602465629 Time=0:01:03.773845
+batch 9900 of 30000,localisation loss=0.00209084440022707,Classification loss=0.45924570500850675 Time=0:01:03.725129
+batch 10000 of 30000,localisation loss=0.002042311888653785,Classification loss=0.5015582373738289 Time=0:01:03.763721
+batch 10100 of 30000,localisation loss=0.0023259898414835336,Classification loss=0.4736486610770225 Time=0:01:03.691026
+batch 10200 of 30000,localisation loss=0.002238176657119766,Classification loss=0.4597239056229591 Time=0:01:03.732961
+batch 10300 of 30000,localisation loss=0.0018642882118001581,Classification loss=0.46949592888355257 Time=0:01:03.820185
+batch 10400 of 30000,localisation loss=0.002020540349185467,Classification loss=0.48732162922620775 Time=0:01:03.738373
+batch 10500 of 30000,localisation loss=0.0022773149562999606,Classification loss=0.4732281404733658 Time=0:01:03.703129
+batch 10600 of 30000,localisation loss=0.002182504931697622,Classification loss=0.4884285905957222 Time=0:01:03.672090
+batch 10700 of 30000,localisation loss=0.0019311662798281758,Classification loss=0.4514467254281044 Time=0:01:03.822745
+batch 10800 of 30000,localisation loss=0.002121938649797812,Classification loss=0.48715084314346313 Time=0:01:03.849940
+batch 10900 of 30000,localisation loss=0.0018634946178644897,Classification loss=0.45634627223014834 Time=0:01:03.706400
+batch 11000 of 30000,localisation loss=0.00206710108788684,Classification loss=0.44603037893772124 Time=0:01:03.788112
+batch 11100 of 30000,localisation loss=0.0018677675211802125,Classification loss=0.454436762034893 Time=0:01:03.807618
+batch 11200 of 30000,localisation loss=0.001970730114262551,Classification loss=0.4808516949415207 Time=0:01:03.814522
+batch 11300 of 30000,localisation loss=0.0018432708142790944,Classification loss=0.5104411867260933 Time=0:01:03.819643
+batch 11400 of 30000,localisation loss=0.002026920699281618,Classification loss=0.47270368337631224 Time=0:01:03.817257
+batch 11500 of 30000,localisation loss=0.0018782755685970186,Classification loss=0.4855832162499428 Time=0:01:03.785820
+batch 11600 of 30000,localisation loss=0.0019238165486603976,Classification loss=0.45600721418857576 Time=0:01:03.803734
+batch 11700 of 30000,localisation loss=0.0018222910957410932,Classification loss=0.46258259654045103 Time=0:01:03.769788
+batch 11800 of 30000,localisation loss=0.0018070610705763102,Classification loss=0.49519682496786116 Time=0:01:03.801787
+batch 11900 of 30000,localisation loss=0.001822559217689559,Classification loss=0.47545168578624725 Time=0:01:03.785942
+batch 12000 of 30000,localisation loss=0.001931074778549373,Classification loss=0.4980601519346237 Time=0:01:03.774169
+batch 12100 of 30000,localisation loss=0.0017958379379706458,Classification loss=0.47724816143512727 Time=0:01:03.808960
+batch 12200 of 30000,localisation loss=0.0017521999590098857,Classification loss=0.47066365569829943 Time=0:01:03.791183
+batch 12300 of 30000,localisation loss=0.001848464016802609,Classification loss=0.4576584881544113 Time=0:01:03.806344
+batch 12400 of 30000,localisation loss=0.0017761034052819014,Classification loss=0.4683181619644165 Time=0:01:03.822734
+batch 12500 of 30000,localisation loss=0.0018183148896787316,Classification loss=0.4689239600300789 Time=0:01:03.865626
+batch 12600 of 30000,localisation loss=0.001655367465573363,Classification loss=0.481093276143074 Time=0:01:03.834586
+batch 12700 of 30000,localisation loss=0.001617528642527759,Classification loss=0.4910495713353157 Time=0:01:03.816959
+batch 12800 of 30000,localisation loss=0.0017068775749066844,Classification loss=0.49231109261512757 Time=0:01:03.800946
+batch 12900 of 30000,localisation loss=0.001636451273225248,Classification loss=0.4795626363158226 Time=0:01:03.782112
+batch 13000 of 30000,localisation loss=0.001686664231820032,Classification loss=0.49020530879497526 Time=0:01:03.756527
+batch 13100 of 30000,localisation loss=0.0017096153658349067,Classification loss=0.4691038706898689 Time=0:01:03.798999
+batch 13200 of 30000,localisation loss=0.0016564306581858545,Classification loss=0.4801719477772713 Time=0:01:03.748018
+batch 13300 of 30000,localisation loss=0.0015144664788385852,Classification loss=0.49022915959358215 Time=0:01:03.848373
+batch 13400 of 30000,localisation loss=0.0016352523909881711,Classification loss=0.47263859540224074 Time=0:01:03.749567
+batch 13500 of 30000,localisation loss=0.0016521304979687556,Classification loss=0.4608310320973396 Time=0:01:03.801285
+batch 13600 of 30000,localisation loss=0.001635834362823516,Classification loss=0.4850392755866051 Time=0:01:03.805726
+batch 13700 of 30000,localisation loss=0.0016386056470219046,Classification loss=0.46500976622104645 Time=0:01:03.801578
+batch 13800 of 30000,localisation loss=0.0015639005351113155,Classification loss=0.45859892159700394 Time=0:01:03.707685
+batch 13900 of 30000,localisation loss=0.0015776432247366756,Classification loss=0.4808217194676399 Time=0:01:03.715455
+batch 14000 of 30000,localisation loss=0.0015506291697965934,Classification loss=0.4848899120092392 Time=0:01:03.791408
+batch 14100 of 30000,localisation loss=0.0015804671961814165,Classification loss=0.45001659065485 Time=0:01:03.840846
+batch 14200 of 30000,localisation loss=0.0015382940135896207,Classification loss=0.4788679453730583 Time=0:01:03.764021
+batch 14300 of 30000,localisation loss=0.0015323605900630355,Classification loss=0.4469010171294212 Time=0:01:03.846857
+batch 14400 of 30000,localisation loss=0.0015196284430567175,Classification loss=0.4804769805073738 Time=0:01:03.821796
+batch 14500 of 30000,localisation loss=0.0015063350717537105,Classification loss=0.46216323107481005 Time=0:01:03.762598
+batch 14600 of 30000,localisation loss=0.0015104805905139073,Classification loss=0.4740458011627197 Time=0:01:03.747400
+batch 14700 of 30000,localisation loss=0.0014601154945557938,Classification loss=0.476725839972496 Time=0:01:03.839061
+batch 14800 of 30000,localisation loss=0.0014095144585007803,Classification loss=0.478627687394619 Time=0:01:03.802792
+batch 14900 of 30000,localisation loss=0.0013994135189568625,Classification loss=0.45293850332498553 Time=0:01:03.792666
+batch 15000 of 30000,localisation loss=0.0014089303649961948,Classification loss=0.4687766408920288 Time=0:01:03.816351
+batch 15100 of 30000,localisation loss=0.0014449201442766934,Classification loss=0.5279425781965256 Time=0:01:03.798396
+batch 15200 of 30000,localisation loss=0.0013327109126839787,Classification loss=0.5195282128453255 Time=0:01:03.793660
+batch 15300 of 30000,localisation loss=0.0013882996904430911,Classification loss=0.4565571317076683 Time=0:01:03.757677
+batch 15400 of 30000,localisation loss=0.0014351235434878617,Classification loss=0.5150439500808716 Time=0:01:03.790388
+batch 15500 of 30000,localisation loss=0.0014483242895221337,Classification loss=0.46422563880681994 Time=0:01:03.781848
+batch 15600 of 30000,localisation loss=0.0014113083091797307,Classification loss=0.5352660298347474 Time=0:01:03.830697
+batch 15700 of 30000,localisation loss=0.0013792793120956048,Classification loss=0.4703607025742531 Time=0:01:03.798794
+batch 15800 of 30000,localisation loss=0.0013851296342909337,Classification loss=0.5170878365635871 Time=0:01:03.846380
+batch 15900 of 30000,localisation loss=0.001395996599458158,Classification loss=0.45943989872932434 Time=0:01:03.759071
+batch 16000 of 30000,localisation loss=0.0013256802840624004,Classification loss=0.45311429381370544 Time=0:01:03.794635
+batch 16100 of 30000,localisation loss=0.001364403978222981,Classification loss=0.4964336109161377 Time=0:01:03.802253
+batch 16200 of 30000,localisation loss=0.0013247788383159787,Classification loss=0.46933865070343017 Time=0:01:03.773055
+batch 16300 of 30000,localisation loss=0.001311102015315555,Classification loss=0.4589927211403847 Time=0:01:03.822774
+batch 16400 of 30000,localisation loss=0.0013014473271323367,Classification loss=0.48237077504396436 Time=0:01:03.809985
+batch 16500 of 30000,localisation loss=0.001245959319639951,Classification loss=0.4674636933207512 Time=0:01:03.644114
+batch 16600 of 30000,localisation loss=0.0012613541766768321,Classification loss=0.47739441514015196 Time=0:01:03.730689
+batch 16700 of 30000,localisation loss=0.0012137309368699788,Classification loss=0.48708966493606565 Time=0:01:03.740441
+batch 16800 of 30000,localisation loss=0.0012406247959006577,Classification loss=0.46812096148729326 Time=0:01:03.780013
+batch 16900 of 30000,localisation loss=0.0012974698998732491,Classification loss=0.4751738545298576 Time=0:01:03.834206
+batch 17000 of 30000,localisation loss=0.0012725772056728602,Classification loss=0.46256033450365064 Time=0:01:03.808626
+batch 17100 of 30000,localisation loss=0.0013005305005935953,Classification loss=0.46163233995437625 Time=0:01:03.803688
+batch 17200 of 30000,localisation loss=0.0012384911347180605,Classification loss=0.4596541726589203 Time=0:01:03.792137
+batch 17300 of 30000,localisation loss=0.001224305493524298,Classification loss=0.48328071713447573 Time=0:01:03.793306
+batch 17400 of 30000,localisation loss=0.001290233331383206,Classification loss=0.4715819749236107 Time=0:01:03.761240
+batch 17500 of 30000,localisation loss=0.0011860384757164865,Classification loss=0.49901216477155685 Time=0:01:03.778408
+batch 17600 of 30000,localisation loss=0.0011944165988825263,Classification loss=0.4763445582985878 Time=0:01:03.815738
+batch 17700 of 30000,localisation loss=0.0012227619200712069,Classification loss=0.4745743727684021 Time=0:01:03.840575
+batch 17800 of 30000,localisation loss=0.001214596561039798,Classification loss=0.4728506100177765 Time=0:01:03.814066
+batch 17900 of 30000,localisation loss=0.0011870440380880609,Classification loss=0.4598926609754562 Time=0:01:03.832287
+batch 18000 of 30000,localisation loss=0.0012340241827769206,Classification loss=0.48200879752635956 Time=0:01:03.837156
+batch 18100 of 30000,localisation loss=0.0011402100534178316,Classification loss=0.46560762852430343 Time=0:01:03.861359
+batch 18200 of 30000,localisation loss=0.0012075465911766513,Classification loss=0.4623096412420273 Time=0:01:03.774848
+batch 18300 of 30000,localisation loss=0.0011395320593146608,Classification loss=0.4744118589162827 Time=0:01:03.822094
+batch 18400 of 30000,localisation loss=0.0011389402666827663,Classification loss=0.5152705925703048 Time=0:01:03.838291
+batch 18500 of 30000,localisation loss=0.0011209839675575496,Classification loss=0.4765219351649284 Time=0:01:03.844082
+batch 18600 of 30000,localisation loss=0.0011366858414839952,Classification loss=0.4575349658727646 Time=0:01:03.858483
+batch 18700 of 30000,localisation loss=0.0011435543140396476,Classification loss=0.4659252041578293 Time=0:01:03.861810
+batch 18800 of 30000,localisation loss=0.001128831278765574,Classification loss=0.45121450304985045 Time=0:01:03.805264
+batch 18900 of 30000,localisation loss=0.0011375312344171107,Classification loss=0.47162684619426726 Time=0:01:03.833347
+batch 19000 of 30000,localisation loss=0.001112879017018713,Classification loss=0.48768152356147765 Time=0:01:03.886202
+batch 19100 of 30000,localisation loss=0.0010816410422557965,Classification loss=0.5302280849218368 Time=0:01:03.851713
+batch 19200 of 30000,localisation loss=0.0010579870297806337,Classification loss=0.5027785831689835 Time=0:01:03.791347
+batch 19300 of 30000,localisation loss=0.00110613122174982,Classification loss=0.48618338257074356 Time=0:01:03.883174
+batch 19400 of 30000,localisation loss=0.0010887068853480742,Classification loss=0.48212721407413484 Time=0:01:03.812313
+batch 19500 of 30000,localisation loss=0.0011424299806822092,Classification loss=0.4849666327238083 Time=0:01:03.804907
+batch 19600 of 30000,localisation loss=0.0010885778116062283,Classification loss=0.5226919263601303 Time=0:01:03.832709
+batch 19700 of 30000,localisation loss=0.0010367045254679396,Classification loss=0.4763358163833618 Time=0:01:03.858695
+batch 19800 of 30000,localisation loss=0.001034153695218265,Classification loss=0.49691705077886583 Time=0:01:03.835499
+batch 19900 of 30000,localisation loss=0.0010413840535329654,Classification loss=0.4818748939037323 Time=0:01:03.859043
+batch 20000 of 30000,localisation loss=0.0010442940815119073,Classification loss=0.4807565677165985 Time=0:01:03.810152
+batch 20100 of 30000,localisation loss=0.0010373781551606953,Classification loss=0.4881174430251122 Time=0:01:03.935256
+batch 20200 of 30000,localisation loss=0.0010215243214042858,Classification loss=0.48217180848121644 Time=0:01:03.845862
+batch 20300 of 30000,localisation loss=0.0010298745811451225,Classification loss=0.4805745106935501 Time=0:01:03.842996
+batch 20400 of 30000,localisation loss=0.0010343218164052814,Classification loss=0.5013702368736267 Time=0:01:03.912705
+batch 20500 of 30000,localisation loss=0.0010364710219437257,Classification loss=0.45271349042654035 Time=0:01:03.815645
+batch 20600 of 30000,localisation loss=0.0010058064805343748,Classification loss=0.4720997902750969 Time=0:01:03.971692
+batch 20700 of 30000,localisation loss=0.0010212279984261842,Classification loss=0.4687603148818016 Time=0:01:03.867727
+batch 20800 of 30000,localisation loss=0.0009462412615539506,Classification loss=0.4504443311691284 Time=0:01:03.834633
+batch 20900 of 30000,localisation loss=0.0010272947594057768,Classification loss=0.45970117568969726 Time=0:01:03.812521
+batch 21000 of 30000,localisation loss=0.0010032660170691088,Classification loss=0.4631345748901367 Time=0:01:03.830102
+batch 21100 of 30000,localisation loss=0.0009557703643804416,Classification loss=0.4619788232445717 Time=0:01:03.839076
+batch 21200 of 30000,localisation loss=0.0009710953221656382,Classification loss=0.4632071915268898 Time=0:01:03.848707
+batch 21300 of 30000,localisation loss=0.0009848664797027595,Classification loss=0.4830683895945549 Time=0:01:03.826661
+batch 21400 of 30000,localisation loss=0.0009909496779437177,Classification loss=0.4596044471859932 Time=0:01:03.796207
+batch 21500 of 30000,localisation loss=0.0009969894198002293,Classification loss=0.4713515955209732 Time=0:01:03.876159
+batch 21600 of 30000,localisation loss=0.0009709087025839835,Classification loss=0.4721024796366692 Time=0:01:03.856346
+batch 21700 of 30000,localisation loss=0.0009706839732825756,Classification loss=0.5091676014661789 Time=0:01:03.797031
+batch 21800 of 30000,localisation loss=0.0009031240222975612,Classification loss=0.4781086331605911 Time=0:01:03.874219
+batch 21900 of 30000,localisation loss=0.0009678072901442647,Classification loss=0.4808651068806648 Time=0:01:03.826722
+batch 22000 of 30000,localisation loss=0.0009134321170859038,Classification loss=0.48542238742113114 Time=0:01:03.790671
+batch 22100 of 30000,localisation loss=0.0009617343608988449,Classification loss=0.4674567943811417 Time=0:01:03.907074
+batch 22200 of 30000,localisation loss=0.000945048391004093,Classification loss=0.49920962065458296 Time=0:01:03.829276
+batch 22300 of 30000,localisation loss=0.0009127241413807496,Classification loss=0.4673173370957375 Time=0:01:03.909166
+batch 22400 of 30000,localisation loss=0.0009198195958742872,Classification loss=0.4694030186533928 Time=0:01:03.813856
+batch 22500 of 30000,localisation loss=0.0009016820814576931,Classification loss=0.4605620574951172 Time=0:01:03.877471
+batch 22600 of 30000,localisation loss=0.0009207154207979329,Classification loss=0.4655183535814285 Time=0:01:03.849430
+batch 22700 of 30000,localisation loss=0.0009239633654942736,Classification loss=0.5143887957930565 Time=0:01:03.874858
+batch 22800 of 30000,localisation loss=0.0009142963425256312,Classification loss=0.49468153327703474 Time=0:01:03.876193
+batch 22900 of 30000,localisation loss=0.000856634087394923,Classification loss=0.4706388083100319 Time=0:01:03.851120
+batch 23000 of 30000,localisation loss=0.0008751676834071986,Classification loss=0.4881534817814827 Time=0:01:03.823261
+batch 23100 of 30000,localisation loss=0.000884222142631188,Classification loss=0.48177771240472794 Time=0:01:03.918153
+batch 23200 of 30000,localisation loss=0.0008944095531478524,Classification loss=0.4705804800987244 Time=0:01:03.763788
+batch 23300 of 30000,localisation loss=0.0008913338964339346,Classification loss=0.4548275390267372 Time=0:01:03.818694
+batch 23400 of 30000,localisation loss=0.0008799780276603997,Classification loss=0.4610739985108376 Time=0:01:03.880923
+batch 23500 of 30000,localisation loss=0.0008704242773819715,Classification loss=0.4785709819197655 Time=0:01:03.804907
+batch 23600 of 30000,localisation loss=0.0008724801181233488,Classification loss=0.46026854395866396 Time=0:01:03.826708
+batch 23700 of 30000,localisation loss=0.0008173221442848444,Classification loss=0.48705328077077864 Time=0:01:03.791404
+batch 23800 of 30000,localisation loss=0.0008588794135721401,Classification loss=0.49848187565803526 Time=0:01:03.847378
+batch 23900 of 30000,localisation loss=0.0008686030816170387,Classification loss=0.45784174233675 Time=0:01:03.831236
+batch 24000 of 30000,localisation loss=0.0008575690555153414,Classification loss=0.4957468354701996 Time=0:01:03.809736
+batch 24100 of 30000,localisation loss=0.0008001058685476891,Classification loss=0.4764072072505951 Time=0:01:03.789741
+batch 24200 of 30000,localisation loss=0.0008177770607289859,Classification loss=0.4921783435344696 Time=0:01:03.812660
+batch 24300 of 30000,localisation loss=0.0007806192938005551,Classification loss=0.47563918769359587 Time=0:01:03.828733
+batch 24400 of 30000,localisation loss=0.0008509536838391796,Classification loss=0.4740612876415253 Time=0:01:03.851261
+batch 24500 of 30000,localisation loss=0.0007966075692093,Classification loss=0.4878357121348381 Time=0:01:03.838975
+batch 24600 of 30000,localisation loss=0.0007954853257979267,Classification loss=0.4799301508069038 Time=0:01:03.819718
+batch 24700 of 30000,localisation loss=0.0008273210457991809,Classification loss=0.483162884414196 Time=0:01:03.804997
+batch 24800 of 30000,localisation loss=0.0008459880162263289,Classification loss=0.46206375271081923 Time=0:01:03.739618
+batch 24900 of 30000,localisation loss=0.0007994613537448458,Classification loss=0.473935427069664 Time=0:01:03.878786
+batch 25000 of 30000,localisation loss=0.0008088615955784917,Classification loss=0.5172527560591698 Time=0:01:03.835577
+batch 25100 of 30000,localisation loss=0.0008480433031218126,Classification loss=0.5364268633723259 Time=0:01:03.820580
+batch 25200 of 30000,localisation loss=0.0007920945677324198,Classification loss=0.49079968720674516 Time=0:01:03.823550
+batch 25300 of 30000,localisation loss=0.0008343756088288501,Classification loss=0.508918896317482 Time=0:01:03.818665
+batch 25400 of 30000,localisation loss=0.0008352362114237621,Classification loss=0.4736430636048317 Time=0:01:03.794283
+batch 25500 of 30000,localisation loss=0.000813223083387129,Classification loss=0.48364470928907394 Time=0:01:03.857554
+batch 25600 of 30000,localisation loss=0.0007485181963420473,Classification loss=0.4978921037912369 Time=0:01:03.832193
+batch 25700 of 30000,localisation loss=0.0008005476085236296,Classification loss=0.47796512216329573 Time=0:01:03.755767
+batch 25800 of 30000,localisation loss=0.0007852978719165549,Classification loss=0.5390046152472496 Time=0:01:03.861117
+batch 25900 of 30000,localisation loss=0.0007519376155687496,Classification loss=0.4587728196382523 Time=0:01:03.800179
+batch 26000 of 30000,localisation loss=0.0007425504431012086,Classification loss=0.45898478537797927 Time=0:01:03.843511
+batch 26100 of 30000,localisation loss=0.0008089814271079376,Classification loss=0.49037240535020826 Time=0:01:03.848898
+batch 26200 of 30000,localisation loss=0.0007786893486627377,Classification loss=0.483533990085125 Time=0:01:03.803137
+batch 26300 of 30000,localisation loss=0.000719504551962018,Classification loss=0.4698157775402069 Time=0:01:03.777138
+batch 26400 of 30000,localisation loss=0.0007532137789530679,Classification loss=0.44444598704576493 Time=0:01:03.845399
+batch 26500 of 30000,localisation loss=0.0007863833216833882,Classification loss=0.46647316426038743 Time=0:01:03.795848
+batch 26600 of 30000,localisation loss=0.0007494323453283868,Classification loss=0.4483000561594963 Time=0:01:03.805062
+batch 26700 of 30000,localisation loss=0.0007838635318330489,Classification loss=0.5199933877587318 Time=0:01:03.804904
+batch 26800 of 30000,localisation loss=0.0007885879921377636,Classification loss=0.4898803421854973 Time=0:01:03.868574
+batch 26900 of 30000,localisation loss=0.0007523987189051695,Classification loss=0.443821978867054 Time=0:01:03.802614
+batch 27000 of 30000,localisation loss=0.0007341152502340265,Classification loss=0.5149357068538666 Time=0:01:03.812249
+batch 27100 of 30000,localisation loss=0.0007793359766947106,Classification loss=0.4616903418302536 Time=0:01:03.823496
+batch 27200 of 30000,localisation loss=0.0007274647816666402,Classification loss=0.4833285775780678 Time=0:01:03.760990
+batch 27300 of 30000,localisation loss=0.0007251427895971574,Classification loss=0.47978305160999296 Time=0:01:03.767352
+batch 27400 of 30000,localisation loss=0.0007071711536264047,Classification loss=0.46178799390792846 Time=0:01:03.783300
+batch 27500 of 30000,localisation loss=0.0006968282794696279,Classification loss=0.5031184005737305 Time=0:01:03.806374
+batch 27600 of 30000,localisation loss=0.000721060413052328,Classification loss=0.48223004579544065 Time=0:01:03.714764
+batch 27700 of 30000,localisation loss=0.0006995969818672166,Classification loss=0.4503379476070404 Time=0:01:03.802526
+batch 27800 of 30000,localisation loss=0.0007206283428240568,Classification loss=0.48447429537773135 Time=0:01:03.807683
+batch 27900 of 30000,localisation loss=0.0007052930377540179,Classification loss=0.48583008617162704 Time=0:01:03.858541
+batch 28000 of 30000,localisation loss=0.0006629161606542766,Classification loss=0.4825849258899689 Time=0:01:03.820426
+batch 28100 of 30000,localisation loss=0.0006766464447719045,Classification loss=0.47244631111621854 Time=0:01:03.798884
+batch 28200 of 30000,localisation loss=0.0007108552308636717,Classification loss=0.48419189363718035 Time=0:01:03.881709
+batch 28300 of 30000,localisation loss=0.0006968923701788299,Classification loss=0.48214760154485703 Time=0:01:03.830014
+batch 28400 of 30000,localisation loss=0.0006707410290255211,Classification loss=0.4613257744908333 Time=0:01:03.877940
+batch 28500 of 30000,localisation loss=0.0006707853198167868,Classification loss=0.4679190397262573 Time=0:01:03.824148
+batch 28600 of 30000,localisation loss=0.0006528817527578213,Classification loss=0.5139582166075707 Time=0:01:03.836076
+batch 28700 of 30000,localisation loss=0.0007089030952192843,Classification loss=0.49498086631298066 Time=0:01:03.834829
+batch 28800 of 30000,localisation loss=0.0007137421966763213,Classification loss=0.46692750841379166 Time=0:01:03.819544
+batch 28900 of 30000,localisation loss=0.0006674579821992666,Classification loss=0.5114477849006653 Time=0:01:03.780424
+batch 29000 of 30000,localisation loss=0.0006888412157422863,Classification loss=0.4760645201802254 Time=0:01:03.856339
+batch 29100 of 30000,localisation loss=0.0006717621334246359,Classification loss=0.4890224027633667 Time=0:01:03.774818
+batch 29200 of 30000,localisation loss=0.0006819230536348187,Classification loss=0.5200309637188911 Time=0:01:03.757670
+batch 29300 of 30000,localisation loss=0.0006819733511656523,Classification loss=0.46236383110284807 Time=0:01:03.789229
+batch 29400 of 30000,localisation loss=0.0007108638316276483,Classification loss=0.4630893433094025 Time=0:01:03.748313
+batch 29500 of 30000,localisation loss=0.0006665968557354062,Classification loss=0.5152908250689506 Time=0:01:03.786662
+batch 29600 of 30000,localisation loss=0.0006399191281525418,Classification loss=0.48789058685302733 Time=0:01:03.812459
+batch 29700 of 30000,localisation loss=0.0006808498143800534,Classification loss=0.4545522198081017 Time=0:01:03.832113
+batch 29800 of 30000,localisation loss=0.0006149103178177029,Classification loss=0.48272709906101224 Time=0:01:03.817104
+batch 29900 of 30000,localisation loss=0.0006486875520204194,Classification loss=0.46494717568159105 Time=0:01:03.727302
+Done fine-tuning!
+Finished training model
+Done.
